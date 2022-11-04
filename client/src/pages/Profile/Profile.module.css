@@ -1,0 +1,30 @@
+.form_container {
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 30px 30px 30px;
+    border-radius: 6px;
+    position: relative;
+}
+.image_form_container {
+    padding-top: 60px;
+}
+
+.profile_image {
+    position: absolute;
+    top: -60px;
+    left: 140px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 -5px 5px  rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.profile_forms_flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    align-items: center;
+}

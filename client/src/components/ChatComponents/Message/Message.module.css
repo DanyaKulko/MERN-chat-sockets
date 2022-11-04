@@ -1,0 +1,50 @@
+
+.message {
+    /*display: flex;*/
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.message:not(.my_message):before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+}
+
+.my_message {
+    align-self: flex-end;
+}
+
+.my_message:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+}
+
+.message_edited,
+.message_time {
+    color: #c3c3c3;
+    font-size: 10px;
+    text-align: right;
+}
+
+
+.message_sending_image {
+    width: 10px;
+}
+
+.message_info {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}

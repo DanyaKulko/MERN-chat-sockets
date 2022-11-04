@@ -1,0 +1,22 @@
+.form_button {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #af7878;
+    background-color: #af7878;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 25px;
+}
+
+.form_button:hover {
+    background-color: #b44949;
+}
+
+.form_button:disabled {
+    background-color: #7a6666;
+}
+
+.form_control {}

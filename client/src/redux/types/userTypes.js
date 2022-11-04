@@ -1,0 +1,7 @@
+export const SET_USER = 'SET_USER';
+export const LOGOUT = 'LOGOUT';
+export const SET_LOADING = 'SET_LOADING';
+export const SET_VALIDATION_ERRORS = 'SET_VALIDATION_ERRORS';
+
+export const UPLOAD_AVATAR = 'UPLOAD_AVATAR';
+export const UPDATE_PROFILE = 'UPDATE_PROFILE';

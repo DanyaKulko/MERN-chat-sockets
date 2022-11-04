@@ -1,0 +1,36 @@
+.form_input {
+    width: 100%;
+    border: none;
+    padding: 9px 0;
+    border-bottom: 1px solid #969696;
+    font-size: 16px;
+    margin-top: 8px;
+    transition: .3s;
+}
+
+.form_input:focus {
+    border-bottom: 1px solid #2a2a2a;
+}
+.form_input::placeholder {
+    color: #b9b9b9;
+}
+
+.form_label {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.form_control {
+    margin-top: 20px;
+}
+
+.form_input_error {
+    border-bottom: 1px solid #ff0000;
+}
+
+.form_error {
+    color: #ff0000;
+    font-size: 12px;
+    margin-top: 5px;
+}

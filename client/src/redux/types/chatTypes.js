@@ -1,0 +1,12 @@
+export const GET_ALL_CHATS_DATA = 'GET_ALL_CHATS';
+export const GET_CHAT_DATA = 'GET_CHAT';
+export const SEND_MESSAGE = 'SEND_MESSAGE';
+export const SET_TYPING = 'SET_TYPING';
+export const SET_USER_TYPING = 'SET_USER_TYPING';
+export const NEW_MESSAGE = 'NEW_MESSAGE';
+export const DELETE_MESSAGE = 'DELETE_MESSAGE';
+export const EDIT_MESSAGE = 'EDIT_MESSAGE';
+export const RECEIVE_EDIT_MESSAGE = 'RECEIVE_EDIT_MESSAGE';
+
+export const USER_WENT_ONLINE = 'USER_WENT_ONLINE';
+export const USER_WENT_OFFLINE = 'USER_WENT_OFFLINE';
